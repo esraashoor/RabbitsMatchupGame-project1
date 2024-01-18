@@ -8,19 +8,19 @@ an example of a wireframe for the main game page:
 
 -----------------------------
 
-|          Header           |
+|                 Header                  |
 
 -----------------------------
 
-|            Game           |
+|                  Game                    |
 
-|                           |
+|                                                |
 
-|         Card Grid         |
+|               Card Grid                |
 
 -----------------------------
 
-|          Footer           |
+|                   Footer                 |
 
 -----------------------------
 
