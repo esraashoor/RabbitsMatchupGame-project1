@@ -2,7 +2,7 @@
 
 the objective of the game is to match pairs of cards with the same color.
 
-example
+## example
 
 an example of a wireframe for the main game page:
 
@@ -12,19 +12,19 @@ an example of a wireframe for the main game page:
 
 ---
 
-|            Game           |
+|          Game         |
 
-|                           |
+|                         |
 
-|         Card Grid     |
-
----
-
-|          Footer           |
+|       Card Grid     |
 
 ---
 
-To do list for the overall game:
+|          Footer         |
+
+---
+
+## To do list for the overall game:
 
 Create a grid of facedown cards on the game board.
 
