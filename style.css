@@ -6,11 +6,11 @@
   display: inline-block;
   height: 175px;
   width: 125px;
-  background-color: rgb(11, 28, 22);
+  background-color: #000000;
 }
 
 .card:hover {
-  border: 1px solid green;
+  border: 1px solid red;
 }
 
 .green {
@@ -35,4 +35,7 @@
 
 .orange {
   background-color: orange;
+}
+.color-hidden {
+  background-color: black;
 }
