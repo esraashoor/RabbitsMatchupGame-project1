@@ -14,7 +14,8 @@ an example of a wireframe for the main game page:
 
 |          Game         |
 
-|                         |
+|                    
+  |
 
 |       Card Grid     |
 
