@@ -1,12 +1,41 @@
+/*@font-face {
+  font-family: 'ff hekaya';
+  src: url('esra/downloads/FFHekaya-Light.otf') format('truetype');
+}*/
+
+body {
+  margin: 0;
+  background-color: pink;
+}
+
+.title {
+  color: rgb(0, 0, 0);
+  font-family: 'ff hekaya', serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 8rem;
+}
+
 .row {
   text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 20px;
+  margin: 20px;
+  justify-content: center;
 }
 
 .card {
   display: inline-block;
   height: 175px;
   width: 125px;
-  background-color: #000000;
+  background-color: rgb(199, 89, 107);
+  border-radius: 12px;
+  border-width: 1px;
+}
+
+.card.done {
+  cursor: default;
 }
 
 .card:hover {
@@ -25,8 +54,8 @@
   background-color: yellow;
 }
 
-.pink {
-  background-color: pink;
+.white {
+  background-color: white;
 }
 
 .purple {
@@ -37,5 +66,5 @@
   background-color: orange;
 }
 .color-hidden {
-  background-color: black;
+  background-color: rgb(218, 145, 157);
 }

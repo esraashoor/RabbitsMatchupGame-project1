@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: pink;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.titletwo {
+  margin-bottom: 20px;
+  color: rgb(0, 0, 0);
+  font-family: 'ff hekaya', serif;
+  font-weight: bold;
+  font-size: 8rem;
+}
+
+#play {
+  margin: auto;
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0.913);
+  color: rgba(255, 255, 255, 0.913);
+  font-family: 'ff hekaya', sans-serif;
+  font-size: 3vmin;
+  font-weight: normal;
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0.913);
+  border-radius: 1vmin;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-top: 0em;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.913);
+  color: rgba(0, 0, 0, 0.913);
+  cursor: pointer;
+}
