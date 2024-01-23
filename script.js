@@ -43,41 +43,50 @@ for (let i = 0; i < cards.length; i++) {
     //we are adding(or saving) the idColor value as a new element at the end of the foundCards array.(push the id)
     foundCards.push(idColor)
 
-    //(foundCards.length === 4 )This condition checks if the length of the foundCards array is equal to 4. This implies that the user has found and matched two cards.
+    //(foundCards.length === 4 )This condition checks if the length of the (foundCards.push(colorAttribute) array)  is equal to 4. This implies that the user has found and matched two cards.
 
-    //(foundCards[0] === foundCards[2])This condition checks if the value of the first card in the foundCards array is equal to the value of the third card. This suggests that the user has found a pair of matching cards.
+    //(foundCards[0] === foundCards[2])This condition checks if the value of the first card in the foundCards.push(colorAttribute) array is equal to the value of the third card. This suggests that the user has found a pair of matching cards.
     //If both of these conditions are true, the code within the if statement {} block will be executed.
     if (foundCards.length === 4 && foundCards[0] === foundCards[2]) {
       //This code increments the value(let matchCards = 0) stored in the matchCards variable by 1.
       matchCards++
       //This code assigns an empty array ([]) to the foundCards variable. It clears the foundCards array, getting ready for the user to find the next set of matching cards.
       foundCards = []
-      //////////////
-      // clickedCard.classList.remove('color-hidden')
-      //openCards = openCards + 2
-    } else if (foundCards.length === 4 && foundCards[1] !== foundCards[3]) {
-      // ....disable all board elements, disable body
-      setTimeout(() => {
-        console.log('color id', foundCards[1])
-        let card1 = document.getElementById(foundCards[1])
-        card1.classList.add('color-hidden')
-        card1.style.pointerEvents = ''
-        let card2 = document.getElementById(foundCards[3])
-        card2.classList.add('color-hidden')
-        card2.style.pointerEvents = ''
-        // add color hidden to card 2
-        // clickedCard.classList.add('color-hidden')
 
+      //(foundCards.length === 4 )This condition checks if the length of the (foundCards.push(colorId) array)  is equal to 4. This implies that the user has found and matched two cards.
+
+      //foundCards[1] !== foundCards[3])This condition checks if the value of the second card in the (foundCards.push(clorid) array) is equal to the value of the fourth card. This suggests that the user has found a pair of different id cards.
+      //If both of these conditions are true, the code within the if statement {} block will be executed.
+    } else if (foundCards.length === 4 && foundCards[1] !== foundCards[3]) {
+      //here we set a time out for the unmatched card to close after 500 milliseconds.
+
+      setTimeout(() => {
+        //this is a variable created for card1 with index number 1 from foundCards.push(idColor)array
+        let card1 = document.getElementById(foundCards[1])
+        //this hide the colour of the card
+        card1.classList.add('color-hidden')
+        //this prevent clicking on the same card again
+        card1.style.pointerEvents = ''
+        //this is a variable created for card2 with index number 3 from foundCards.push(idColor)array
+        let card2 = document.getElementById(foundCards[3])
+        //this hide the colour of the card
+        card2.classList.add('color-hidden')
+        //this prevent clicking on the same card again
+        card2.style.pointerEvents = ''
+        //This code assigns an empty array ([]) to the foundCards variable. It clears the foundCards array, getting ready for the user to find the next set of matching cards.
         foundCards = []
-        //....renable the body, board elements
       }, 500)
     }
+    //the if statment here says that if matchCards = 6 open the index2.html window
     if (matchCards === 6) {
       window.location.replace('index2.html')
     }
   })
 }
-
-document.getElementById('play').addEventListener('click', function () {
-  window.location.href = 'index.html'
-})
+//this select the play button id
+document
+  .getElementById('play')
+  // this is an event listener added to the button in order to take us to the back to the game window (index.html)
+  .addEventListener('click', function () {
+    window.location.href = 'index.html'
+  })
