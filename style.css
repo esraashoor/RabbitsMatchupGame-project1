@@ -5,15 +5,29 @@
 
 body {
   margin: 0;
-  background-color: pink;
+  background-image: url(https://lh3.googleusercontent.com/pw/ABLVV87RHRwBG0gXfsLUmsVSr6zX8IvDFpTEUq9xKlNSbbvcADXmCs3J3Zcf1YyFE8ODn-v6j4HPlo98t1iWz_yzBQpY5zAajoozr2rAggE03vEAFWSREQ=w2400);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.title {
-  color: rgb(0, 0, 0);
-  font-family: 'ff hekaya', serif;
-  font-weight: bold;
+.container {
   text-align: center;
-  font-size: 8rem;
+  margin: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+.centered-image {
+  max-height: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
 }
 
 .row {
@@ -32,6 +46,7 @@ body {
   background-color: rgb(199, 89, 107);
   border-radius: 12px;
   border-width: 1px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
 }
 
 .card.done {
@@ -43,28 +58,85 @@ body {
 }
 
 .green {
-  background-color: green;
+  background-color: white;
+  background-image: url(https://vectorshelf.com/wp-content/uploads/2023/11/ot413_1.png),
+    url(https://lh3.googleusercontent.com/pw/ABLVV87Kdt6xTvYPoqjrzDY4D5HZ91iz_6LflJuy5yv6i0YA-xGMHqdmlkXZQy7OPuHetMW0_Yu3_U-TfNHN_lboA3UM-V3rYhfeA8Rlt5mpZEEFMcmAdw=w2400);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  height: 175px;
+  width: 125px;
+  border: 2px solid #362b44;
+  border-radius: 12px;
 }
 
 .blue {
-  background-color: blue;
+  background-color: white;
+  background-image: url(https://vectorshelf.com/wp-content/uploads/2023/11/ot412_1.png),
+    url(https://lh3.googleusercontent.com/pw/ABLVV87Kdt6xTvYPoqjrzDY4D5HZ91iz_6LflJuy5yv6i0YA-xGMHqdmlkXZQy7OPuHetMW0_Yu3_U-TfNHN_lboA3UM-V3rYhfeA8Rlt5mpZEEFMcmAdw=w2400);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  height: 175px;
+  width: 125px;
+  border: 2px solid #362b44;
+  border-radius: 12px;
 }
 
 .yellow {
-  background-color: yellow;
+  background-color: white;
+  background-image: url(https://vectorshelf.com/wp-content/uploads/2023/11/ot412_2.png),
+    url(https://lh3.googleusercontent.com/pw/ABLVV87Kdt6xTvYPoqjrzDY4D5HZ91iz_6LflJuy5yv6i0YA-xGMHqdmlkXZQy7OPuHetMW0_Yu3_U-TfNHN_lboA3UM-V3rYhfeA8Rlt5mpZEEFMcmAdw=w2400);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  height: 175px;
+  width: 125px;
+  border: 2px solid #362b44;
+  border-radius: 12px;
 }
 
 .white {
   background-color: white;
+  background-image: url(https://vectorshelf.com/wp-content/uploads/2023/11/ot411.png),
+    url(https://lh3.googleusercontent.com/pw/ABLVV87Kdt6xTvYPoqjrzDY4D5HZ91iz_6LflJuy5yv6i0YA-xGMHqdmlkXZQy7OPuHetMW0_Yu3_U-TfNHN_lboA3UM-V3rYhfeA8Rlt5mpZEEFMcmAdw=w2400);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  height: 175px;
+  width: 125px;
+  border: 2px solid #362b44;
+  border-radius: 12px;
 }
 
 .purple {
-  background-color: purple;
+  background-color: white;
+  background-image: url(https://vectorshelf.com/wp-content/uploads/2023/11/ot414.png),
+    url(https://lh3.googleusercontent.com/pw/ABLVV87Kdt6xTvYPoqjrzDY4D5HZ91iz_6LflJuy5yv6i0YA-xGMHqdmlkXZQy7OPuHetMW0_Yu3_U-TfNHN_lboA3UM-V3rYhfeA8Rlt5mpZEEFMcmAdw=w2400);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  height: 175px;
+  width: 125px;
+  border: 2px solid #362b44;
+  border-radius: 12px;
 }
 
 .orange {
-  background-color: orange;
+  background-color: white;
+  background-image: url(https://vectorshelf.com/wp-content/uploads/2023/11/ot415_4.png),
+    url(https://lh3.googleusercontent.com/pw/ABLVV87Kdt6xTvYPoqjrzDY4D5HZ91iz_6LflJuy5yv6i0YA-xGMHqdmlkXZQy7OPuHetMW0_Yu3_U-TfNHN_lboA3UM-V3rYhfeA8Rlt5mpZEEFMcmAdw=w2400);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  height: 175px;
+  width: 125px;
+  border: 2px solid #362b44;
+  border-radius: 12px;
 }
 .color-hidden {
-  background-color: rgb(218, 145, 157);
+  background-image: url(https://lh3.googleusercontent.com/pw/ABLVV85dxfeX8IRiX3S41ytRXeQlrJojaVC7o9QrV9kTNFXKLd79XdupLjfyKpgdHGM4zYMHxxNvx5sMsTagi6473LodZ7LftLVwKp6BKpr6_paAvIDX7g=w2400);
+  background-color: #ffffff;
+  border: 2px solid #362b44;
+  border-radius: 12px;
 }

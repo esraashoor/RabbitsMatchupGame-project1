@@ -1,60 +1,26 @@
-# Memory Matching Cards game
+# Game description
+
+## Memory Matching Cards game
 
 the objective of the game is to match pairs of cards with the same color.
 
-## example
+## live link
 
-an example of a wireframe for the main game page:
+[matchingupgame_esra.surge.sh](matchingupgame_esra.surge.sh)
 
----
+## ![image](https://lh3.googleusercontent.com/pw/ABLVV84e5V_GXt8oCzqnCSnxWYKiNd0jzUgmrmc6CYOha2EoVY9KjhE3arDMuNQJaY9xTtqrZR73QvIDLOSN7cGsgsSDwM0D7F77fPyfPy4EK_85kS721g=w2400)
 
-|         Header          |
+## Technologies used
 
----
+- ![HTML badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+- ![CSS badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+- ![JS badge](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
-|          Game         |
+## future plans:
 
-|                    
-  |
+I have a few things which I hope to implement in the near future to increase the functionality of the game. They are as follows:
 
-|       Card Grid     |
-
----
-
-|          Footer         |
-
----
-
-## To do list for the overall game:
-
-Create a grid of facedown cards on the game board.
-
-Attach a click event listener to each card.
-
-When a card is clicked:
-
-Flip the card face-up to reveal the symbol.
-
-If it's the first card in a pair, remember its symbol.
-
-If it's the second card in a pair:
-
-Compare the symbols of the two cards.
-
-If they match:
-
-Keep the cards face-up.
-
-Increment the number of matched pairs.
-
-Check if all pairs have been matched.
-
-If all pairs have been matched, end the game.
-
-If they don't match:
-
-Wait for a short period.
-
-Flip both cards face-down.
-
-If the game ends, display a congratulatory message with the number of moves and elapsed time.
+- [ ] add other levels
+- [ ] add 3d flip for the cards
+- [ ] add sounds for the game
+- [ ] work more on the design part

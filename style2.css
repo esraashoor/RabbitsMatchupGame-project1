@@ -3,7 +3,10 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: pink;
+  background-image: url(https://lh3.googleusercontent.com/pw/ABLVV87RHRwBG0gXfsLUmsVSr6zX8IvDFpTEUq9xKlNSbbvcADXmCs3J3Zcf1YyFE8ODn-v6j4HPlo98t1iWz_yzBQpY5zAajoozr2rAggE03vEAFWSREQ=w2400);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .centered-text {
@@ -24,7 +27,7 @@ body {
 
 button {
   background-color: rgba(0, 0, 0, 0.913);
-  color: rgba(255, 255, 255, 0.913);
+  color: #f0ebe4;
   font-family: 'ff hekaya', sans-serif;
   font-size: 3vmin;
   font-weight: normal;
