@@ -1,8 +1,8 @@
-# Game description
+# Memory Matching Cards game
 
-## Memory Matching Cards game
+## Game description
 
-the objective of the game is to match pairs of cards with the same color.
+the objective of the game is to match pairs of cards with the same illustration.
 
 ## live link
 
@@ -24,3 +24,7 @@ I have a few things which I hope to implement in the near future to increase the
 - [ ] add 3d flip for the cards
 - [ ] add sounds for the game
 - [ ] work more on the design part
+
+## reference list
+
+[stackoverflow.com](https://stackoverflow.com/questions/22775892/how-to-add-image-that-is-on-my-computer-to-a-site-in-css-or-html)
