@@ -9,30 +9,43 @@ body {
   background-position: center;
 }
 
-.centered-text {
+.white-container {
+  width: 494px;
+  height: 380px;
+  background-color: white;
+  padding: 20px;
   text-align: center;
+  background-color: white;
+  background-image: url(https://lh3.googleusercontent.com/pw/ABLVV84ND5-ZakalxPhlQhfDBJTV2a9FL3jNWAIuXHbfWPBhhgCkFVnqLL5dbjWHUwwPdgBZfVj9dbmx5xPbWJ39AWuibysvnT2iWv3OD2nfNTG9pCzdlw=w2400);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  border-radius: 23px;
+  border: 4px solid #362b44;
 }
 
-.titletwo {
-  margin-bottom: 20px;
-  color: rgb(0, 0, 0);
-  font-family: 'ff hekaya', serif;
-  font-weight: bold;
-  font-size: 8rem;
+.centered-text {
+  margin: 0 auto;
+}
+
+.container {
+  text-align: center;
+  margin: 20px;
 }
 
 #play {
   margin: auto;
+  margin-top: 60%;
 }
 
 button {
-  background-color: rgba(0, 0, 0, 0.913);
-  color: #f0ebe4;
+  background-color: #362b44;
+  color: #ffffff;
   font-family: 'ff hekaya', sans-serif;
   font-size: 3vmin;
   font-weight: normal;
   outline: none;
-  border: 2px solid rgba(0, 0, 0, 0.913);
+  border: 3px solid #362b44;
   border-radius: 1vmin;
   margin: auto;
   display: flex;
@@ -44,6 +57,6 @@ button {
 
 button:hover {
   background-color: rgba(255, 255, 255, 0.913);
-  color: rgba(0, 0, 0, 0.913);
+  color: #362b44;
   cursor: pointer;
 }
